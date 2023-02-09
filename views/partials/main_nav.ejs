@@ -1,0 +1,36 @@
+<body>
+  <!-- navbar starts -->
+  <header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> Dhruvi</a>
+    <nav class="navbar">
+      <ul>
+        <% if(title=="Home" ){%>
+          <li><a class="active" href="home">Home</a></li>
+        <%}else{%>
+          <li><a href="home">Home</a></li>
+        <%}%>
+        <% if(title=="About" ){%>
+          <li><a class="active" href="about">About Me</a></li>
+          <%}else{%>
+            <li><a href="about">About Me</a></li>
+          <%}%>
+        <% if(title=="Services" ){%>
+          <li><a class="active" href="services">Services</a></li>
+          <%}else{%>
+            <li><a href="services">Services</a></li>
+          <%}%>
+        <% if(title=="Projects" ){%>
+            <li><a class="active" href="projects">Projects</a></li>
+            <%}else{%>
+              <li><a href="projects">Projects</a></li>
+            <%}%>
+        <% if(title=="Contacts" ){%>
+            <li><a class="active" href="contact">Contact</a></li>
+            <%}else{%>
+              <li><a href="contact">Contact</a></li>
+            <%}%>
+      </ul>
+    </nav>
+  </header>
+  <!-- navbar ends -->
+</body>
